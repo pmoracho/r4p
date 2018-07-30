@@ -2,10 +2,10 @@
 
 ## ¿De que hablamos cuando hablamos de lenguaje?
 
+Si vamos a la [wikipedia](https://es.wikipedia.org/wiki/Lenguaje): _Un **lenguaje** es un sistema de comunicación estructurado para el que existe un contexto de uso y ciertos principios combinatorios formales_. En cuanto a la [Real academia española](http://dle.rae.es/?id=N7BnIFO): la definición más general habla de la _Facultad del ser humano de expresarse y comunicarse con los demás a través del sonido articulado o de otros sistemas de signos_. Todos estos son conceptos  aplican a la totalidad de los lenguajes creados principalmente por el hombre (algunos animales manejan un lenguaje también) y los lenguajes informáticos, en definitiva, no dejan de ser otro lenguaje más. Infinitamente más limitados en el vocabulario, pero cuya finalidad sigue siendo la comunicación, principalmente entre un ser humano y una máquina.
 
-Un **lenguaje** es un sistema de comunicación estructurado para el que existe un significado|contexto]] de uso y ciertos principios combinatorios formales. Existen contextos tanto naturales como artificiales.
 
-You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
+
 
 Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
 
