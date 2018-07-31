@@ -1,4 +1,4 @@
---- 
+---
 title: "R para programadores y no tanto"
 author: "Patricio Moracho"
 date: "`r Sys.Date()`"
@@ -8,15 +8,19 @@ bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
 description: "Este libro es sobre el lenguaje R, pensado para programadores, para los que ya lo son y para los que están empezando."
+fig_caption: yes
+includes:
+    in_header: preamble.tex
+
 ---
 
 # Prefacio
 
-_¿Por qué otro libro más de **R**?_ honestamente yo también me lo pregunto, digamos que quiero hacerlo, estoy motivado, algo aburrido tal vez y por otro lado, si bien hay mucho material y muy bueno (definitivamente mejor que este), la mayor parte, por no decir casi todo, está escrito en la lengua de Don William Shakespeare, de forma que en la lengua de Cervantes hay un vacío importante, que sin duda este libro tampoco aspira a llenar.
+_¿Por qué otro libro más de **R**?_ honestamente yo también me lo pregunto, digamos que quiero hacerlo, estoy motivado, algo aburrido tal vez, y por otro lado, si bien hay mucho material y muy bueno (definitivamente mejor que este), la mayor parte, por no decir casi todo, está escrito en la lengua de Don William Shakespeare, de forma que en castellano hay un vacío importante, que sin duda este libro tampoco aspira a llenar.
 
-_¿De qué trata este libro?_ Básicamente sobre un lenguaje de programación sumamente interesante diseñado para resolver toda clase de problemas estadísticos. Si ya sé, hoy en día decir estadística suena absolutamente demodeé, ¿Les gusta más Data Science? sin duda es mucho más "cool", si lo prefieren así la llamaremos, pero a no olvidar que la naturaleza de la ciencia de datos es materia de la Estadística. 
+_¿De qué trata este libro?_ Básicamente sobre un lenguaje de programación sumamente interesante diseñado para resolver toda clase de problemas estadísticos. Si ya sé, hoy en día decir estadística suena absolutamente demodeé, ¿Les gusta más Data Science?, si lo prefieren así la llamaremos, pero a no olvidar que la naturaleza de la ciencia de datos es materia de la Estadística. 
 
-_¿De qué va este libro?_ En primer lugar, no soy estadístico, apenas cursé alguna materia en la secundaria y o universidad, lo que sí, sin duda soy programador, por sobre todas las cosas en las que la profesión me va llevando a hacer, la programación sigue siendo mi refugio y mi mayor interés. Por esto, el libro apunta por sobre todas las cosas a profundizar sobre el lenguaje, sin embargo, la idea es avanzar sobre los temas estadísticos en la medida siempre en que un humilde programador pueda abordarlos. 
+_¿De qué va este libro?_ En primer lugar, no soy estadístico, apenas cursé alguna materia en la secundaria y/o universidad, lo que sí, sin duda soy programador, por sobre todas las cosas en las que la profesión me va llevando a hacer, la programación sigue siendo mi refugio y mi mayor interés. Por esto, el libro apunta por sobre todas las cosas a profundizar sobre el lenguaje, sin embargo, la idea es avanzar sobre los temas estadísticos en la medida siempre en que un humilde programador pueda abordarlos. 
 
 _¿A quiénes está orientado este libro?_ Básicamente a dos grupos, **(a)** los ya programadores que quieran sumergirse en el mundo de la ciencia de datos, **(b)** A los que ya son estadísticos, perdón, científicos de datos, pero que no tienen nociones de programación.
 

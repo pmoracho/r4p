@@ -2,25 +2,20 @@
 
 ## ¿De que hablamos cuando hablamos de lenguaje?
 
-Si vamos a la [wikipedia](https://es.wikipedia.org/wiki/Lenguaje): _Un **lenguaje** es un sistema de comunicación estructurado para el que existe un contexto de uso y ciertos principios combinatorios formales_. En cuanto a la [Real academia española](http://dle.rae.es/?id=N7BnIFO): la definición más general habla de la _Facultad del ser humano de expresarse y comunicarse con los demás a través del sonido articulado o de otros sistemas de signos_. Todos estos son conceptos  aplican a la totalidad de los lenguajes creados principalmente por el hombre (algunos animales manejan un lenguaje también) y los lenguajes informáticos, en definitiva, no dejan de ser otro lenguaje más. Infinitamente más limitados en el vocabulario, pero cuya finalidad sigue siendo la comunicación, principalmente entre un ser humano y una máquina.
+Si vamos a la [wikipedia](https://es.wikipedia.org/wiki/Lenguaje): _Un **lenguaje** es un sistema de comunicación estructurado para el que existe un contexto de uso y ciertos principios combinatorios formales_. En cuanto a la [Real academia española](http://dle.rae.es/?id=N7BnIFO): la definición más general habla de la _Facultad del ser humano de expresarse y comunicarse con los demás a través del sonido articulado o de otros sistemas de signos_. Todos estos son conceptos que aplican a la totalidad de los lenguajes creados fundamentalmente por el hombre (algunos animales manejan un cierto lenguaje también) y los lenguajes informáticos en particular, no dejan de ser otro lenguaje más. Infinitamente más limitados en su vocabulario, inflexibles en cuanto a su sintaxis, los lenguajes informáticos o de programación, no dejan de ser, como cualquier otra lengua, una forma de comunicación, principalmente entre un ser humano y una máquina (computadora).
 
+## Un poco de Historia (y de contexto)
 
+Los lenguajes de programación preceden a la computadora en más de un siglo. A comienzos del siglo XIX, se crea un los primeros códigos para comunicarse con una maquina, fue el usado para "programar" el [telar de Jacquard](https://es.wikipedia.org/wiki/Telar_de_Jacquard) mediante un sistema similar al de las tarjetas perforadas de las primeras computadoras. El "código" en estas maquinas definían los patrones que luego aplicaría en el tejido final. 
 
-
-Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
-
-```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
-par(mar = c(4, 4, .1, .1))
-plot(pressure, type = 'b', pch = 19)
+```{r echo=FALSE, out.width='40%', fig.align="center", fig.cap='Un telar de Jacquard'}
+knitr::include_graphics('./img/Jacquard.loom.cards.jpg')
 ```
 
-Reference a figure by its code chunk label with the `fig:` prefix, e.g., see Figure \@ref(fig:nice-fig). Similarly, you can reference tables generated from `knitr::kable()`, e.g., see Table \@ref(tab:nice-tab).
+Más allá de este antecedente, al menos hoy, hay un consenso casi general, en que el hito inicial, fue la creación de un código para calcular los números de Bernoulli mediante la [maquina analítica de Charles Babbage](https://es.wikipedia.org/wiki/M%C3%A1quina_anal%C3%ADtica) en 1842 por parte de la que se considera la primera programadora de la historia: [Ada Lovelace](https://es.wikipedia.org/wiki/Ada_Lovelace). Lo interesante es que la maquina de Babbage, considerada también hoy como la primer computadora, nunca llegó a construirse, ya sea por desición política, de costos o técnica, solo fue un diseño en papel, lo que perduró fue este diseño y algunos prototipos incompletos.
 
-```{r nice-tab, tidy=FALSE}
-knitr::kable(
-  head(iris, 20), caption = 'Here is a nice table!',
-  booktabs = TRUE
-)
+```{r echo=FALSE, out.width='40%', fig.align="center", fig.cap='Un modelo parcial de la maquina de Babbage'}
+knitr::include_graphics('./img/Analytical_Engine.jpg')
 ```
 
-You can write citations, too. For example, we are using the **bookdown** package [@R-bookdown] in this sample book, which was built on top of R Markdown and **knitr** [@xie2015].
+
