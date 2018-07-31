@@ -1,4 +1,4 @@
-# Introduction {#intro}
+# Introducción {#intro}
 
 ## ¿De que hablamos cuando hablamos de lenguaje?
 
@@ -7,7 +7,6 @@ Si vamos a la [wikipedia](https://es.wikipedia.org/wiki/Lenguaje): _Un **lenguaj
 ## Un poco de Historia (y de contexto)
 
 Los lenguajes de programación preceden a la computadora en más de un siglo. A comienzos del siglo XIX, se crea un los primeros códigos para comunicarse con una maquina, fue el usado para "programar" el [telar de Jacquard](https://es.wikipedia.org/wiki/Telar_de_Jacquard) mediante un sistema similar al de las tarjetas perforadas de las primeras computadoras. El "código" en estas maquinas definían los patrones que luego aplicaría en el tejido final. 
-
 ```{r echo=FALSE, out.width='40%', fig.align="center", fig.cap='Un telar de Jacquard'}
 knitr::include_graphics('./img/Jacquard.loom.cards.jpg')
 ```
@@ -18,4 +17,9 @@ Más allá de este antecedente, al menos hoy, hay un consenso casi general, en q
 knitr::include_graphics('./img/Analytical_Engine.jpg')
 ```
 
+Otro consenso es definir a la ENIAC (Electronic Numerical Integrator And Calculator) finalizada en 1945, como la primera computadora moderna de uso general. Esta y otras computadoras posteriores que le siguieron, se "programaban", es decir, se les decía que es lo que tenía que calcular/hacer directamente modificando el hardware, cambiando interruptores o modificando las conexiones. Pronto esto hizo claro que se debía contar con una forma de comunicarse con la maquina de forma más práctica y menos costosa, por lo que se empiezan a definir los primeros lenguajes de programación
+
+```{r echo=FALSE, out.width='40%', fig.align="center", fig.cap='Programando la ENIAC'}
+knitr::include_graphics('./img/Classic_shot_of_the_ENIAC.jpg')
+```
 
