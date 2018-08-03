@@ -67,3 +67,6 @@ La ejecución de los programas, dependiendo del lenguaje, se realiza en alguna d
 
 * Interpretado: Estos lenguajes dependen de un "interprete" llamado también "maquina virtual", el código se "interpreta" cuando se solicita la ejecución del programa.
 
+## ¿Y de R?
+
+Corre el año 1976 y en los laboratorios Bell (¿dónde sino?) John Chambers, Rick Becker y Allan Wilks desarrollan un lenguaje orientado a la estadística, Hasta ese momento, gran parte de la computación estadística se hacía invocando directamente a las subrutinas escritas enFortran; sin embargo, el nuevo lenguaje, que aún no tenía nombre, se diseñó para ofrecer un enfoque alternativo y más interactivo. Las primeras decisiones de diseño que se mantienen aún hoy en día incluyen dispositivos gráficos interactivos (impresoras y terminales de caracteres en ese momento), y documentación de fácil acceso para las funciones. Recién en 1979 a este lenguaje se le dió el nombre de **S**, siguiendo la tendencia del laboratorio de usar una sola letra como nombre. El lenguaje propsperó mucho en la década del 80.
