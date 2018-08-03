@@ -2,7 +2,8 @@
 
 ## ¿De que hablamos cuando hablamos de lenguaje?
 
-Si vamos a la [wikipedia](https://es.wikipedia.org/wiki/Lenguaje): _Un **lenguaje** es un sistema de comunicación estructurado para el que existe un contexto de uso y ciertos principios combinatorios formales_. En cuanto a la [Real academia española](http://dle.rae.es/?id=N7BnIFO): la definición más general habla de la _Facultad del ser humano de expresarse y comunicarse con los demás a través del sonido articulado o de otros sistemas de signos_. Todos estos son conceptos que aplican a la totalidad de los lenguajes creados fundamentalmente por el hombre (algunos animales manejan un cierto lenguaje también) y los lenguajes informáticos en particular, no dejan de ser otro lenguaje más. Infinitamente más limitados en su vocabulario, inflexibles en cuanto a su sintaxis, los lenguajes informáticos o de programación, no dejan de ser, como cualquier otra lengua, una forma de comunicación, principalmente entre un ser humano y una máquina (computadora).
+Si vamos a la [wikipedia](https://es.wikipedia.org/wiki/Lenguaje): _Un **lenguaje** es un sistema de comunicación estructurado para el que existe un contexto de uso y ciertos principios combinatorios formales_. En cuanto a la [Real academia española](http://dle.rae.es/?id=N7BnIFO): la definición más general habla de la _Facultad del ser humano de expresarse y comunicarse con los demás a través del sonido articulado o de otros sistemas de signos_. Todos estos son conceptos que aplican a la totalidad de los lenguajes creados fundamentalmente por el hombre (algunos animales manejan un cierto lenguaje también) y los lenguajes informáticos en particular, no dejan de ser otro lenguaje más. Infinitamente más limitados en su vocabulario, inflexibles en cuanto a su sintaxis, los lenguajes informáticos o de programación, no dejan de ser, como cualquier otra lengua, una forma de comunicación, principalmente entre un ser humano y una máquina (computadora). Los lenguajes de programación son la herramienta para escribir programas. Los programas son un conjunto de instrucciones que definenen (programan) el comportamiento de una computadora.
+
 
 ## Un poco de Historia (y de contexto)
 
@@ -54,17 +55,15 @@ En un lenguaje de bajo nivel, es decir, código assembler, se escribe para una m
 
 Uno de los primeros lenguajes de alto nivel de este periodo, que apareció en 1957, fue: **FORTRAN** (The IBM Mathematical **For**mula **Tran**slating System). Lo menciono por sobre otro más famoso tal vez en esa etapa como **COBOL**, por que en **R** hay muchos paquetes, es decir funcionalidad extra del lenguaje, que aún hoy, está escrita tanto en **FORTRAN**, como en otro lenguaje posterior (1972) y altamente extendido aún hoy como **C**. 
 
-Hasta ahora sabemos que los lenguajes pueden categorizarse según el nivel de abstracción con la arquitectura:
+Hasta ahora sabemos que los lenguajes pueden categorizarse según el nivel de abstracción con la arquitectura en:
 
 * Código de maquina
 * Lenguajes de bajo nivel; **assembler**
 * Lenguajes de alto nivel: **FORTRAN**, **BASIC**, **C**, **R**, **JAVA**, **Python**, etc.
 
-Sin embargo otra categorización que es importante conocer es la del resultado final que el lenguaje producirá, al respecto hay dos categorías básicas:
+La ejecución de los programas, dependiendo del lenguaje, se realiza en alguna de estas formas:
 
-* Lenguajes compilados
-* Lenguajes interpretados
+* Directamente como código de maquina: Es el caso de los lenguajes "compilados". La "compilación" es el proceso de interpretar el código escrito en un lenguaje de alto nivel y convertirlo en código de maquina para luego ejecutarlo. Lenguajes como C, C++, FORTRAN y otros son "compilados"
 
-Los primeros 
-
+* Interpretado: Estos lenguajes dependen de un "interprete" llamado también "maquina virtual", el código se "interpreta" cuando se solicita la ejecución del programa.
 
