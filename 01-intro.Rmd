@@ -48,15 +48,23 @@ Sin duda muy poco claro para el neofito del lenguaje, pero sin duda una mejora a
 knitr::include_graphics('./img/asm_hello_world.jpg')
 ```
 
-Durante la decada de 1950, se desarrollan los primeros lenguajes de bajo nivel, los **assemblers**, sin embargo, cada vez más los requerimientos eran mayores, los problemas más difícles, los algoritmos más complejos. Pronto se hizo evidente que escribir código en Assembler, si bien mejor que hacerlo directamente en el código de la maquina, era inviable. Nace el primer lenguaje de alto nivel: **FORTRAN**. 
+Durante la decada de 1950, se desarrollan los primeros lenguajes de bajo nivel, los **assemblers**, sin embargo, cada vez más los requerimientos eran mayores, los problemas más difícles, los algoritmos más complejos. Pronto se hizo evidente que escribir código en Assembler, si bien mejor que hacerlo directamente en el código de la maquina, era inviable. Nacen los primeros lenguajes de alto nivel. Estos, son con los que se escriben la mayor parte de los programas hoy en día, **R** de hecho es un lenguaje de alto nivel. 
 
+En un lenguaje de bajo nivel, es decir, código assembler, se escribe para una maquina determinada, se usan las instrucciones que define cada arquitectura. Por el contrario, los lenguajes de alto nivel, definen un conjunto más limitado de instrucciones, y logran la abstracción con el hardware. Cuando se escribe código de alto nivel, se escribe para una maquina abtracta. 
 
+Uno de los primeros lenguajes de alto nivel de este periodo, que apareció en 1957, fue: **FORTRAN** (The IBM Mathematical **For**mula **Tran**slating System). Lo menciono por sobre otro más famoso tal vez en esa etapa como **COBOL**, por que en **R** hay muchos paquetes, es decir funcionalidad extra del lenguaje, que aún hoy, está escrita tanto en **FORTRAN**, como en otro lenguaje posterior (1972) y altamente extendido aún hoy como **C**. 
 
+Hasta ahora sabemos que los lenguajes pueden categorizarse según el nivel de abstracción con la arquitectura:
 
+* Código de maquina
+* Lenguajes de bajo nivel; **assembler**
+* Lenguajes de alto nivel: **FORTRAN**, **BASIC**, **C**, **R**, **JAVA**, **Python**, etc.
 
-Con esto ya tenemos los tres niveles de lenguajes que aún perduran hoy:
+Sin embargo otra categorización que es importante conocer es la del resultado final que el lenguaje producirá, al respecto hay dos categorías básicas:
 
-* Lenguaje de maquina: el código binario que entiende directamente la computadora
-* los lenguajes de bajo nivel: Aquellos lenguajes más amigables con el programador, que tienen un conjunto limitado de instrucciones o sentencias y que Assembler, C
-* Los de alto nivel: FORTRAN, BASIC, R, Python, Java, etc.
+* Lenguajes compilados
+* Lenguajes interpretados
+
+Los primeros 
+
 
